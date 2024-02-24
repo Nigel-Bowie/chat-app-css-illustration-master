@@ -13,7 +13,7 @@ The designs were created to the following widths:
 
 #### Text
 
-- Pale Violet (sub-heading at the top of the app UI): hsl(276, 100%, 81%)
+- Pale Violet (sub-heading at the top of the app UI): 
 - Moderate Violet (chat on the left): hsl(276, 55%, 52%)
 - Desaturated Dark Violet (chat on the right): hsl(271, 15%, 43%)
 - Grayish Blue (placeholder text): hsl(206, 6%, 79%)

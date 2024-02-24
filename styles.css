@@ -1,8 +1,57 @@
+/* THIS IS A MOBILE FIRST DESIGN */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+:root{
+    /* PRIMARY COLORS */
+    --RECEIVED: hsl(276, 55%, 52%);
+    --SEND:hsl(271, 15%, 43%);
+    --DETAILS:hsl(276, 100%, 81%);
+    --PLACEHOLDER:hsl(206, 6%, 79%);
+    --MAIN:hsl(271, 36%, 24%);
+    --OTHER:hsl(270, 7%, 64%);
+    --BACKGROUND:linear-gradidient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+
+    /*SECONDARY COLORS */
+    --WHITE:hsl(0, 0%, 100%);
+    --APPBACKGROUND:hsl(270, 20%, 96%);
+    --SUBMIT:hsl(271, 36%, 24%);
+    --RADIOBUTTON:hsl(289, 100%, 72%);
+
+    /* FONTS */
+    --FF:Rubik; src: url (https://fonts.google.com/specimen/Rubik);
+    --FW400:400;
+    --FW500:500;
+    --FW700:700;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: var(--BACKGROUND);
+}
+
+.containerOuter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* DESKTOP SETTINGS */
+
+@media screen and (min-width > 375px){
+    
+}
