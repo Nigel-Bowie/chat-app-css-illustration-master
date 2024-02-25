@@ -13,7 +13,7 @@
     --PLACEHOLDER:hsl(206, 6%, 79%);
     --MAIN:hsl(271, 36%, 24%);
     --OTHER:hsl(270, 7%, 64%);
-    --BACKGROUND:linear-gradidient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    --BACKGROUND:linear-gradient(to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
 
     /*SECONDARY COLORS */
     --WHITE:hsl(0, 0%, 100%);
@@ -32,6 +32,8 @@ body{
     width: 100vw;
     height: 100vh;
     background: var(--OTHER);
+    font-family: var(--FF);
+    font-size: 16px;
 }
 
 .divide{
@@ -68,21 +70,48 @@ body{
 
 .design{
     width: 50%;
-    height: 15px;
+    height: 20px;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    background: var(--WHITE);
-    border-radius: 8px;
+    background: var(--APPBACKGROUND);
+    border: 2px transparent ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
+
+.messageDetails{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background:var(--BACKGROUND);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+img{
+    border: 1px solid var(--OTHER);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
 /* INTRODUCTION MESSAGE */
 .intro{
     position: absolute;
-    margin-top: 60vh;
-    padding: 2rem;
+    margin-top: 62vh;
+    padding: 2.3rem;
     text-align: center;
     margin-bottom: 15px;
+    line-height: 2;
 }
 
+h1{
+    padding: 1rem;
+    font-weight: 700;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
